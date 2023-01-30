@@ -8,6 +8,8 @@ usermod -aG sudo hxm
 ```
 
 
+## 安装需要的环境
+
 **安装需要的环境**
 
 `sudo apt install xorg --install-suggests`
@@ -15,6 +17,7 @@ usermod -aG sudo hxm
 
 xrandr -s //调整分辨率
 
+## 装的软件有
 **装的软件有**
 
 Thunar
