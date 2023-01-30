@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hxm Blog</title>
+        <link>http://ohxxxmo.github.io/</link>
+        <description>Hxm Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Jan 2023 15:13:57 &#43;0800</lastBuildDate>
+            <atom:link href="http://ohxxxmo.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>第一篇文章</title>
+    <link>http://ohxxxmo.github.io/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+    <pubDate>Mon, 30 Jan 2023 15:13:57 &#43;0800</pubDate>
+    <author>hxm</author>
+    <guid>http://ohxxxmo.github.io/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+    <description><![CDATA[Debian安装dwm 配置用户使用sudo 1 2 apt install sudo usermod -aG sudo hxm 安装需要的环境 sudo apt install xorg --install-suggests sudo apt install libx11-dev libxft-dev libxinerama-dev xrandr -s //调整分辨率 装的软件有 Thunar Konsole 命令行终端 Apper]]></description>
+</item>
+</channel>
+</rss>
