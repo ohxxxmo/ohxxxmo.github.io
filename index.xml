@@ -3,9 +3,17 @@
         <title>Hxm Blog</title>
         <link>http://ohxxxmo.github.io/</link>
         <description>Hxm Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Jan 2023 15:13:57 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Jan 2023 20:34:52 &#43;0800</lastBuildDate>
             <atom:link href="http://ohxxxmo.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Hugo&#43;github博客搭建</title>
+    <link>http://ohxxxmo.github.io/hugo-github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+    <pubDate>Mon, 30 Jan 2023 20:34:52 &#43;0800</pubDate>
+    <author>hxm</author>
+    <guid>http://ohxxxmo.github.io/hugo-github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+    <description><![CDATA[博客搭建 hugo安装 主题配置 git 下载以及安装 github仓库配置 git action文件 hugo安装 Magic Gardens这是一个图片 " Magic Gardens]]></description>
+</item>
+<item>
     <title>第一篇文章</title>
     <link>http://ohxxxmo.github.io/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
     <pubDate>Mon, 30 Jan 2023 15:13:57 &#43;0800</pubDate>
