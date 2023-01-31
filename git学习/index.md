@@ -250,12 +250,21 @@
   1. 生成公钥和私钥（默认放在~/.ssh目录下，id_rsa.pub公钥、id_rsa私钥）
      
      ```bash
-     ssh-keygen
+     ssh-keygen -t rsa -b 4096 -C "huangxianming319@outlook.com"
+     # 这里需要改为你的邮箱
      ```
   
   2. 拷贝公钥内容，并设置到**github**中
   
-  3. 在git本地配置ssh地址
+  3. 配置全局配置文件
+     
+     ```bash
+     git config --global user.name "ohxxxmo"
+     git config --global user.email "huangxianming319@outlook.com"
+     # 这里需要改为你的用户名邮箱
+     ```
+  
+  4. 在git本地配置ssh地址
      
      ```bash
      git remote add origin git@github.com:NAME/project.git

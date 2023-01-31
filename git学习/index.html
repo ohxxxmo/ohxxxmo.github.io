@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/ohxxxmo.github.io\/git%E5%AD%A6%E4%B9%A0\/"
-        },"genre": "posts","keywords": "git","wordcount":  1242 ,
+        },"genre": "posts","keywords": "git","wordcount":  1295 ,
         "url": "http:\/\/ohxxxmo.github.io\/git%E5%AD%A6%E4%B9%A0\/","datePublished": "2023-01-31T15:27:22+08:00","dateModified": "2023-01-31T15:27:22+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -72,7 +72,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Git学习</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Hxm</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E6%9D%82%E9%A1%B9/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>杂项</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-31">2023-01-31</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1242 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-31">2023-01-31</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1295 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -535,15 +535,32 @@ git config --system user.email <span class="s2">&#34;you@email.com&#34;</span>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen
+<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;huangxianming319@outlook.com&#34;</span>
+<span class="c1"># 这里需要改为你的邮箱</span>
 </code></pre></td></tr></table>
 </div>
 </div></li>
 <li>
 <p>拷贝公钥内容，并设置到<strong>github</strong>中</p>
 </li>
+<li>
+<p>配置全局配置文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git config --global user.name <span class="s2">&#34;ohxxxmo&#34;</span>
+git config --global user.email <span class="s2">&#34;huangxianming319@outlook.com&#34;</span>
+<span class="c1"># 这里需要改为你的用户名邮箱</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>在git本地配置ssh地址</p>
 <div class="highlight"><div class="chroma">
