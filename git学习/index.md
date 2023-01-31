@@ -35,11 +35,13 @@
   # 红色：未添加
   # 绿色：添加完成
   ```
+
 - 提交
   
   ```bash
   git commit -m '描述信息'
   ```
+
 - 生成版本
   
   ```bash
@@ -73,7 +75,7 @@
   
   ```bash
   git log
-  git reset --hard 版本号
+  git reset --hard 哈希id
   ```
 
 - 回滚之后的版本
@@ -265,7 +267,7 @@
 
 > [.gitignore文件参考](https://github.com/github/gitignore)
 
--  .gitignore文件内容
+- .gitignore文件内容
   
   ```bash
   file.txt
@@ -276,6 +278,4 @@
   !a.h
   # 除了a.h文件以外的.h文件都会被忽略
   ```
-
-
 
