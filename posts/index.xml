@@ -3,23 +3,7 @@
         <title>All Posts - Hxm Blog</title>
         <link>http://ohxxxmo.github.io/posts/</link>
         <description>All Posts | Hxm Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Feb 2023 00:35:17 &#43;0800</lastBuildDate><atom:link href="http://ohxxxmo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>D</title>
-    <link>http://ohxxxmo.github.io/d/</link>
-    <pubDate>Wed, 01 Feb 2023 00:35:17 &#43;0800</pubDate>
-    <author>Hxm</author>
-    <guid>http://ohxxxmo.github.io/d/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>M</title>
-    <link>http://ohxxxmo.github.io/m/</link>
-    <pubDate>Wed, 01 Feb 2023 00:27:40 &#43;0800</pubDate>
-    <author>Hxm</author>
-    <guid>http://ohxxxmo.github.io/m/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 31 Jan 2023 15:27:22 &#43;0800</lastBuildDate><atom:link href="http://ohxxxmo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Git学习</title>
     <link>http://ohxxxmo.github.io/git%E5%AD%A6%E4%B9%A0/</link>
     <pubDate>Tue, 31 Jan 2023 15:27:22 &#43;0800</pubDate>
